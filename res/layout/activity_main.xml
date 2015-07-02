@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_page1"
+    android:layout_gravity="center">
+    
+<Button
+android:id="@+id/yqzbbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="120px"
+android:layout_gravity="center"
+ android:text="孕前准备">  
+</Button>
+
+<Button
+android:id="@+id/hyxzbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="20px"
+ android:text="怀孕须知">
+</Button>
+
+<Button
+android:id="@+id/tlbjbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="20px"
+ android:text="调理保健">
+</Button>
+
+<Button
+android:id="@+id/aboutbtn"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:layout_marginTop="20px"
+android:text="关于本软件">
+</Button>
+</LinearLayout>

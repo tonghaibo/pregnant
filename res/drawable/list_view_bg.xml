@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 设置按下时效果 -->
+    <item android:state_pressed="true" android:drawable="@drawable/background"/>
+    <!-- 设置选中时效果 -->
+    <item android:state_selected="true" android:drawable="@drawable/background"/>
+    <!-- 设置获取焦点时效果 -->
+    <item android:state_focused="true" android:drawable="@drawable/background"/>
+
+</selector>

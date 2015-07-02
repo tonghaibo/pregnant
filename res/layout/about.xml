@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical" >
+        <TextView 
+            android:text="@string/abouttitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+            android:gravity="center"
+            android:drawableBottom="@drawable/divider"/>
+        <TextView 
+            android:text="@string/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:drawableBottom="@drawable/divider"
+            android:maxLines="21"
+            android:width="10px"
+            android:layout_margin="10px"/>
+        <TextView 
+            android:text="@string/title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+            android:gravity="center"
+            android:drawableBottom="@drawable/divider"
+            android:maxLines="21"/>
+        <TextView 
+            android:text="@string/text2"
+            android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+ 		 	android:textSize="15dip"
+ 		 	android:drawableBottom="@drawable/divider"
+   			android:maxLines="21"
+   			android:width="10px"
+   			android:layout_margin="10px"/>
+        <TextView 
+            android:text="@string/title3"
+            android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="18dip"
+  			android:gravity="center"
+  			android:drawableBottom="@drawable/divider"
+   			android:maxLines="21"/>
+        <TextView 
+            android:text="@string/text3"
+            android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="15dip"
+  			android:drawableBottom="@drawable/divider"
+   			android:maxLines="21"
+   			android:width="10px"
+   			android:layout_margin="10px"/>
+        <TextView 
+            android:text="@string/copyright"
+            android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="13dip"
+  			android:gravity="center"/>
+    </LinearLayout>
+    
+
+</ScrollView>
